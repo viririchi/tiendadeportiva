@@ -1,0 +1,19 @@
+/* Colores normales para computadoras */
+body {
+    background-color: lightblue; /* Fondo azul clarito */
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/*Si la pantalla mide menos de 600 píxeles (como un celular) */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightgreen; /* El fondo cambia a verde en celular */
+    }
+    h1 {
+        font-size: 20px; /* Las letras se hacen más chiquitas para que quepan */
+    }
+}
